@@ -24,7 +24,6 @@ public class DistanceHelper {
             dist = dist * 1.609344;
         } else if(DistanceType == Meter){
             dist = dist * 1609.344;
-        } else if(DistanceType == Mile) {
         }
 
         return (dist);
